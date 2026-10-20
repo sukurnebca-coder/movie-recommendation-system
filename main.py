@@ -193,13 +193,8 @@ def recommend_movies(movie_name, number_of_recommendations=5):
     )
 
 
-    # Display recommendations
-    print("\nMovies recommended for you:")
-    print(
-        recommendations["title"]
-        .head(number_of_recommendations)
-        .to_string(index=False)
-    )
+    
+    
 
 # Rating and Genre Visualizations
 
